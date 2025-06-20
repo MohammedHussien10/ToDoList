@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224581862E05F5C200B83319 /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224581852E05F5C200B83319 /* DoneViewController.m */; };
 		22B3F9022DD414640059A5AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B3F9012DD414640059A5AA /* AppDelegate.m */; };
 		22B3F9052DD414640059A5AA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B3F9042DD414640059A5AA /* SceneDelegate.m */; };
 		22B3F9082DD414640059A5AA /* TableTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B3F9072DD414640059A5AA /* TableTasksViewController.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		224581842E05F5C200B83319 /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		224581852E05F5C200B83319 /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
 		22B3F8FD2DD414640059A5AA /* To-Do-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-Do-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B3F9002DD414640059A5AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22B3F9012DD414640059A5AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				22B3F93C2DD41FD20059A5AA /* AddTaskViewController.m */,
 				22B3F93E2DD41FE90059A5AA /* DoingViewController.h */,
 				22B3F93F2DD41FE90059A5AA /* DoingViewController.m */,
+				224581842E05F5C200B83319 /* DoneViewController.h */,
+				224581852E05F5C200B83319 /* DoneViewController.m */,
 			);
 			path = "To-Do-List";
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224581862E05F5C200B83319 /* DoneViewController.m in Sources */,
 				22B3F9402DD41FE90059A5AA /* DoingViewController.m in Sources */,
 				22B3F93D2DD41FD20059A5AA /* AddTaskViewController.m in Sources */,
 				22B3F9372DD41A2C0059A5AA /* Task.m in Sources */,

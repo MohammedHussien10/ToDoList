@@ -9,8 +9,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DoneViewController : UIViewController
+@interface DoneViewController:UIViewController<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate>
+@property (weak, nonatomic) IBOutlet UISegmentedControl *prioritySegment;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (strong, nonatomic) NSMutableArray *filteredTasksArray;
+@property (assign, nonatomic) BOOL isFiltering;
+@property (weak, nonatomic) IBOutlet UITableView *tableDetails;
+@property NSUserDefaults *resultTaskDefaults;
+@property NSArray *arrayResultTaskDefaults;
+@property NSMutableArray *tasksArray;
 
 @end
-
-NS_ASSUME_NONNULL_END
